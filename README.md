@@ -1,3 +1,14 @@
+set http_proxy=http://127.0.0.1:6890
+set https_proxy=http://127.0.0.1:6890
+git clone https://github.com/Zerolone/esp32_serial_ble_bridge.git
+
+
+git add .
+git commit -m "2025-7-31"
+git push
+
+
+
 | Supported Targets | ESP32 | ESP32-C3 |
 | ----------------- | ----- | -------- |
 
