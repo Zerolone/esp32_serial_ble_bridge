@@ -16,12 +16,12 @@
 app_settings_t app_settings = {
     .complete_service_uuid = "0000FFE0-0000-1000-8000-00805F9B34FB",
     .complete_characteristic_uuid = "0000FFE1-0000-1000-8000-00805F9B34FB",
-    .device_name = "ESPSERIALBLE",
+    .device_name = "ESPBTSerial",
     .manufacturer_bytes = {0x12, 0x23, 0x45, 0x56},
     .desired_ble_mtu = 400,
     .force_mac_address = "",
     .uart_pin_tx = 17,
-    .uart_pin_rx = 18,
+    .uart_pin_rx = 16,
     .uart_buffer_size = 2048,
     .uart_baud_rate = 115200
 };
